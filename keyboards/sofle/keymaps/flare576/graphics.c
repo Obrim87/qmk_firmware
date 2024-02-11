@@ -284,7 +284,7 @@ void oled_task_user(void) {
 }
 
 // End "OLED_DRIVER_ENABLE"
-#else
-static void luna_jump(bool newJump){}
+// #else
+// static void luna_jump(bool newJump){}
 // End "OLED_DRIVER_ENABLE" false
 #endif
